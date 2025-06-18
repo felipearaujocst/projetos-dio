@@ -20,6 +20,10 @@ a{
     text-decoration: none;
 }
 
+li{
+    list-style-type: none;
+}
+
 .container{
     text-align: center;
 }
@@ -81,4 +85,47 @@ a{
     padding: 18px 32px;
     border: 2px solid var(--primary-color);
 }
+
+.main{
+    padding: 6rem 0;
+    width: 800px;
+    margin: auto;
+    
+}
+
+.main h1{
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.main p{
+    margin-bottom: 16px;
+}
+
+.main li{
+    padding: 14px;
+    background-color: rgb(54, 54, 54);
+    display: block;
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 40px;
+    border: 1px solid var(--primary-color);
+    box-shadow: inset -8px 10px 10px rgb(20, 20, 20);
+}
+
+.main span{
+    color: var(--primary-color);
+}
+
+.banner{
+    height: 400px;
+    background-image: url(/lp-DIO/assets/imgs/woman-code.png);
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
 
