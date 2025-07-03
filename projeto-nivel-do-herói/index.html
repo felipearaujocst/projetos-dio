@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            height: 100vh;
+            font-family: "Rubik", sans-serif;
+            background-color: #00053B;
+        }
+
+        .container{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1{
+            font-weight: 400;
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            
+        }
+
+        span{
+            font-weight: 600;
+        }
+
+        .dados{
+            text-align: center;
+        }
+
+        #hero, #xp{
+            margin-bottom: 10px;
+            padding: 12px;
+            width: 300px;
+            font-family: inherit;
+            border-radius: 10px;
+            border: none;
+        
+        }
+
+        .btn{
+            padding: 12px 40px;
+            margin-top: 10px;
+            border-radius: 10px;
+            border: none;
+            background-color: #349FEF;
+            font-family: inherit;
+            font-weight: 600;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="Frame 4.png" alt="">
+        <h1>Vamos descobrir <br> seu <span>nível de herói?</span></h1>
+        <div class="dados">
+            <input type="text" placeholder="Nome do seu herói" id="hero"><br>
+            <input type="number" placeholder="Sua Quantidade de XP" id="xp"><br>
+            <button onclick="calcularXp()" class="btn">Mostre meu nível</button>
+        </div>
+    </div>
+    <script src="niveldoheroi.js"></script>
+</body>
+</html>
