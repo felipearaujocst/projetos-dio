@@ -1,0 +1,12 @@
+[
+    {
+        "nome": "Luis",
+        "idade": 30,
+        "esta_trabalhando": true,
+        "detalhes_profissão": {
+            "profissao": "Programador",
+            "empresa": "Empresa X"
+        },
+        "hobbies": ["Programar", "Correr", "Ler"]
+    }
+]
